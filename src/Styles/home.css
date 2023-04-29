@@ -1,0 +1,70 @@
+.homeContainer{
+
+    width: 100vw;
+    height: auto;
+    background-color:  #FAF9F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    
+}
+
+.homeWrapper{
+   padding: 0;
+   width: 100%;
+    margin-top: 0;
+   flex:1;
+  
+    font-size: 50px;
+   
+    margin-bottom: 500px;
+}
+
+.homeHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #035754;
+}
+
+.homeSubheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #035754;
+}
+.clickButtonDiv{
+    padding: 20px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clickButton{
+    font-size: 18px;
+font-weight: bold;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.clickButton:hover{
+background-color:  #448a88;
+font-size: 18px;
+font-weight: bold;
+color: white;
+box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+transform: translateY(-7px);
+}
+
+.afterButtonText{
+    padding: 0 20px;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #035754;
+     font-size: 24px;
+}
+

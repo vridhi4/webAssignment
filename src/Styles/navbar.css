@@ -1,0 +1,92 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&family=Titillium+Web:wght@300;400;600&display=swap');
+
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+  :root{
+    --mainColor: #fbe3e8;
+    --mainColorLight: #5cbdb9;
+    --secondaryColor:  #ebf6f5;
+    --textColor:#2c5c5b;
+
+  }
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: 	#008080;
+    color: #FAF9F6
+
+  
+
+  }
+
+  nav a {
+
+    color: #FAF9F6;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+
+  }
+
+  nav a:hover{
+    transition: 150ms;
+    font-size: 25px;
+  }
+
+  nav{
+    display: flex;
+    gap: 6rem;
+  }
+
+  nav a:hover{
+    color: var(--mainColorLight);
+  }
+
+  header .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: none;
+    opacity: 0;
+  }
+
+  @media only screen and (max-width: 1024px){
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    
+    }
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 100ms;
+        transform: translateY(-100vh);
+
+    }
+
+    header .responsive_nav{
+        transform: none;
+    }
+  }
